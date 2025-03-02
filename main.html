@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHP REST API</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <h1>PHP REST API PRODUCT </h1>
+        
+        <h2>Add New Product</h2>
+        <form id="product-form">
+            <label for="name">Product Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="size">Product Size:</label>
+            <input type="number" id="size" name="size" required>
+
+            <label for="is_available">Available:</label>
+            <input type="checkbox" id="is_available" name="is_available" value="Yes">Yes</input>
+
+            <button type="submit">Add Product</button>
+        </form>
+
+        <h2>Delete Product</h2>
+        <form id="delete-form">
+            <label for="delete-id">Product ID:</label>
+            <input type="number" id="delete-id" name="delete-id" required>
+
+            <button type="submit">Delete Product</button>
+        </form>
+      
+        <h2>Products List</h2>
+        <ul id="data-list"></ul>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
