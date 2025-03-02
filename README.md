@@ -2,6 +2,18 @@
 
 # NOTE ‼️ This repo is fork, I only added forn-end to this project and JS 
 
+Don not put main.html with css and js in same folder as API.
+It should look something like this: 
+- `htdocs/` 
+  - main.html
+  - styles.css
+  - scripts.js
+  - `php-rest-api/`
+    - index.php
+    - `src/`
+   
+  I know, it does not supprt messages/errors from api
+
 <br><br>
 
 ## Original README:
