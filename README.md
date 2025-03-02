@@ -1,5 +1,11 @@
 # Create a PHP REST API
 
+# NOTE ‼️ This repo is fork, I only added forn-end to this project and JS 
+
+<br><br>
+
+## Original README:
+
 Source code to accompany this video: https://youtu.be/X51KOJKrofU
 
 [![Create a PHP REST API : Write a RESTful API from Scratch using Plain, Object-Oriented PHP and MySQL](https://img.youtube.com/vi/X51KOJKrofU/0.jpg)](https://youtu.be/X51KOJKrofU)
